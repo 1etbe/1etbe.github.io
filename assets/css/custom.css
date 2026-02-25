@@ -1,0 +1,9 @@
+/* 1. 先將所有大標題改為小寫 (針對分類頁) */
+h1.text-4xl {
+    text-transform: lowercase !important;
+}
+
+/* 2. 排除文章頁：如果標題位於 article 內，則恢復原始大小寫 */
+article h1.text-4xl {
+    text-transform: none !important;
+}

@@ -1,0 +1,72 @@
+baseURL = "https://1etbe.com/"
+title = "1etbe"
+theme = "blowfish"
+defaultContentLanguage = "zh-tw"
+hasCJKLanguage = true
+
+
+[params]
+  colorScheme = "blowfish"
+  defaultAppearance = "dark"
+  custom_css = ["css/custom.css"]
+  mainSections = ["writing", "instrumental", "roughdemo"]
+
+
+[params.header]
+  layout = "fixed"        # 導覽列固定在頂部
+  showSocial = true       # 顯示社群圖示
+  showLogo = true         # 顯示 Logo/標題
+  showMenu = true         # 顯示選單項目
+
+
+[params.homepage]
+  layout = "profile"     # 個人profile
+  showRecent = true      # 顯示最近作品
+  cardView = true        # 開啟卡片視覺效果
+  showRecentItems = 5    # 設定顯示數量
+  showAuthor = true      # 顯示作者資訊
+
+
+[params.social]
+  instagram = "https://www.instagram.com/1etbe/"
+  youtube = "https://www.youtube.com/@1etbeMusic"
+  threads = "https://www.threads.net/@1etbe"
+  github = "https://github.com/1etbe"
+
+
+[params.footer]
+  showSocial = true       # 在頁尾顯示社群圖示
+  showCopyright = true    # 顯示版權宣告 (© 2026)
+  showThemeAppearance = true # 允許在頁尾切換深淺色模式
+
+
+[[authors]]
+  name = "1etbe"
+  isDefault = true
+  image = "img/avatar.png"
+  bio = "我在這裡寫點東西"
+  links = [
+    { instagram = "https://www.instagram.com/1etbe/" },
+    { youtube = "https://www.youtube.com/@1etbeMusic" },
+    { threads = "https://www.threads.net/@1etbe" },
+    { github = "https://github.com/1etbe" }
+  ]
+
+
+# 頂部導覽列
+[[menu.main]]
+  name = "writing"
+  pageRef = "writing"
+  weight = 10
+
+[[menu.main]]
+  name = "instrumental"
+  pageRef = "instrumental"
+  weight = 20
+
+[[menu.main]]
+  name = "roughdemo"
+  pageRef = "roughdemo"
+  weight = 30
+
+
