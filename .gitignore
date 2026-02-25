@@ -1,3 +1,20 @@
 public/
 resources/
 .hugo_build.lock
+
+# Google Drive & 系統暫存
+.tmp.drivedownload/
+.tmp.driveupload/
+desktop.ini
+.DS_Store
+
+# REAPER 快取與本地備份
+*.reapeaks
+*.rpp-bak
+
+# 音訊與大型工程檔 (強制 Git 只處理文字/網頁，不處理音樂實體檔案)
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.rpp
