@@ -1,27 +1,23 @@
-# Block OpenAI (ChatGPT)
+# 1. 預設封鎖所有爬蟲 (確保新出現的 AI 爬蟲無法進入)
+User-agent: *
+Disallow: /
+
+# 2. 針對特定 AI 爬蟲加強封鎖 (雙重保險)
 User-agent: GPTBot
 Disallow: /
-
-# Block Common Crawl (Used by many LLMs)
 User-agent: CCBot
 Disallow: /
-
-# Block Google's AI training specifically (Bard/Gemini)
 User-agent: Google-Extended
 Disallow: /
-
-# Block Anthropic (Claude)
 User-agent: anthropic-ai
 Disallow: /
-
-# Block Facebook/Meta AI
 User-agent: FacebookBot
 Disallow: /
 
-# Allow Google Search and standard indexing
+# 3. 僅允許搜尋引擎進行索引 (讓人類能找到你，但 AI 不准訓練)
 User-agent: Googlebot
 Allow: /
-
-# Allow general compliant users (Default)
-User-agent: *
+User-agent: Bingbot
+Allow: /
+User-agent: Baiduspider
 Allow: /
