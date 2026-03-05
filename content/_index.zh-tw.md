@@ -7,7 +7,7 @@ authors: ["1etbe"]
 
 [{{< icon "instagram" >}} Instagram](https://www.instagram.com/1etbe/) ｜ [{{< icon "youtube" >}} YouTube](https://www.youtube.com/@1etbeMusic) ｜ [{{< icon "threads" >}} Threads](https://www.threads.net/@1etbe) ｜ [{{< icon "github" >}} GitHub](https://github.com/1etbe)
 
- © 2026 1etbe (淚筆). All Rights Reserved. 
+ © 1etbe (淚筆). All Rights Reserved. 
  [License](https://github.com/1etbe/1etbe.github.io/blob/main/LICENSE)
 
     
