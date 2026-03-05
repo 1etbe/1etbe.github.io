@@ -36,7 +36,7 @@ hasCJKLanguage = true
 
 [params.footer]
   showSocial = true       # 在頁尾顯示社群圖示
-  showCopyright = true    # 顯示版權宣告 (© 2026)
+  showCopyright = true    # 顯示版權宣告 (© 1etbe | All Rights Reserved)
   showThemeAppearance = true # 允許在頁尾切換深淺色模式
 
 
@@ -68,5 +68,8 @@ hasCJKLanguage = true
   name = "roughdemo"
   pageRef = "roughdemo"
   weight = 30
+
+  [markup.goldmark.renderer]
+unsafe = true
 
 
