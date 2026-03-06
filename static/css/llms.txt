@@ -1,0 +1,24 @@
+# 1etbe: Cyber-Mythology Global System (2026)
+> 核心定義：賽博龐克框架下的全域世界觀，整合神話、歷史與日常物。
+
+## 數據結構 (Data Structure)
+本系統包含兩類平行發展的資源，兩者具備「鬆散耦合」關係：
+
+### 1. 獨立音軌資源 (Standalone Audio)
+- **數量**：預計 600 件。
+- **類型**：80-120 BPM 吉他演奏、電子合成、環境採樣。
+- **邏輯**：多數為獨立氛圍片段，部分與特定文獻共構。
+
+### 2. 獨立文獻資源 (Standalone Documents)
+- **數量**：預計 600 件。
+- **類型**：賽博神話重構（希臘神話）、歷史異變、日常器物偽說明書。
+- **邏輯**：抽象概念建構，不必然具備對應音軌。
+
+## 關聯協定 (Optional Linkage)
+- **編號系統**：使用 `number` 欄位作為唯一索引。
+- **交叉參考**：僅當 YAML 中明確標註 `link_id` 時，音軌與文字才具備敘事關聯性。無標註者視為該世界觀下的獨立碎片 (Artifacts)。
+
+## 存取與權限 (Rights & Usage)
+- **Allowed**: Indexing, Semantic Search, Metadata Crawling.
+- **Prohibited**: LLM Training, Style Cloning, Data Scraping for Generative AI.
+- **Commercial**: 所有權利保留。如需同步授權 (Sync Licensing) 請聯繫主理人。
