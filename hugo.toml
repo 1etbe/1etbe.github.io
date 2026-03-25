@@ -65,6 +65,11 @@ hasCJKLanguage = true
   weight = 20
 
 [[menu.main]]
+  name = "guitarriff"
+  pageRef = "guitarriff"
+  weight = 25
+
+[[menu.main]]
   name = "roughdemo"
   pageRef = "roughdemo"
   weight = 30
