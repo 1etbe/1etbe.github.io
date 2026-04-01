@@ -16,3 +16,5 @@ Copyright (c) 2026 1etbe. All rights reserved.
 
 #### 3. 商業授權與合作
 任何商業性質之授權需求（如遊戲世界觀授權、影視轉譯、音樂採樣），請透過官方聯繫管道與作者接洽。
+
+Hugo version original: 0.143.0
